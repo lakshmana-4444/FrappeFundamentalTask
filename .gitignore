@@ -1,0 +1,27 @@
+# Bench Environment
+env/
+*.pyc
+__pycache__/
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Runtime Config
+config/
+
+# Sites & Secrets
+sites/assets/
+sites/**/locks/
+sites/**/logs/
+sites/**/site_config.json
+sites/**/private/
+sites/**/public/files/
+
+# Upstream Frappe Framework (480MB+ upstream core)
+apps/frappe/
+
+# Git internals/backups
+.git_backup
+**/.git_backup/
